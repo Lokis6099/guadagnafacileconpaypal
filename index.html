@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guadagna con PayPal - Soluzione Professionale</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-b from-blue-50 to-white min-h-screen">
+    <!-- Header/Nav -->
+    <nav class="fixed top-0 w-full bg-white shadow-lg z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-8">
+                    <img src="paypal_logo.png" alt="PayPal Logo" class="h-6 md:h-8">
+                    <div class="hidden md:flex space-x-6">
+                        <a href="#features" class="text-gray-600 hover:text-blue-600 transition">Caratteristiche</a>
+                        <a href="#chi-siamo" class="text-gray-600 hover:text-blue-600 transition">Chi Siamo</a>
+                        <a href="https://t.me/FrancescoPaypal?text=Ciao%20ho%20un%20conto%20PayPal%2C%20voglio%20iniziare%20a%20lavorare%20con%20te%20%F0%9F%91%8D" class="text-gray-600 hover:text-blue-600 transition">Contatti</a>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="https://t.me/+rZVh0Q_GqsozY2Vk" class="px-6 py-2 bg-yellow-400 text-blue-900 rounded-full hover:bg-yellow-300 transition">
+                        Recensioni
+                    </a>
+                    <a href="https://t.me/FrancescoPaypal?text=Ciao%20ho%20un%20conto%20PayPal%2C%20voglio%20iniziare%20a%20lavorare%20con%20te%20%F0%9F%91%8D" class="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
+                        Inizia Ora
+                    </a>
+                </div>
+
+                <button class="md:hidden focus:outline-none" id="menuBtn">
+                    <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path class="menu-open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        <path class="menu-close hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="md:hidden hidden" id="mobileMenu">
+                <div class="py-4 flex flex-col space-y-4">
+                    <a href="#features" class="text-gray-600">Caratteristiche</a>
+                    <a href="#chi-siamo" class="text-gray-600">Chi Siamo</a>
+                    <a href="https://t.me/FrancescoPaypal?text=Ciao%20ho%20un%20conto%20PayPal%2C%20voglio%20iniziare%20a%20lavorare%20con%20te%20%F0%9F%91%8D" class="text-gray-600">Contatti</a>
+                    <a href="https://t.me/+rZVh0Q_GqsozY2Vk" class="text-gray-600">Recensioni</a>
+                    <a href="https://t.me/FrancescoPaypal?text=Ciao%20ho%20un%20conto%20PayPal%2C%20voglio%20iniziare%20a%20lavorare%20con%20te%20%F0%9F%91%8D" class="px-6 py-2 bg-blue-600 text-white rounded-full text-center">
+                        Inizia Ora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 text-center md:text-left">
+                    <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                        Guadagna Oggi Tramite <span class="text-blue-600">PayPal</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Unisciti alla nostra rete di partner di successo e sblocca il tuo potenziale finanziario con PayPal.
+                    </p>
+                    <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+                        <a href="https://t.me/FrancescoPaypal?text=Ciao%20ho%20un%20conto%20PayPal%2C%20voglio%20iniziare%20a%20lavorare%20con%20te%20%F0%9F%91%8D" class="px-8 py-4 bg-blue-600 text-white rounded-full text-lg hover:bg-blue-700 transition text-center">
+                            Inizia Ora
+                        </a>
+                        <!--
+                        <a href="#learn" class="px-8 py-4 bg-gray-100 text-gray-800 rounded-full text-lg hover:bg-gray-200 transition text-center">
+                            Scopri di Più
+                        </a>-->
+                    </div>
+                </div>
+                <div class="md:w-1/2 mt-12 md:mt-0">
+                    <img src="money.svg" alt="Business Illustration" class="w-full rounded-lg shadow-2xl"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Features -->
+<section class="py-16 bg-white" id="features">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Lavora Senza Ostacoli</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <!-- Gratuito -->
+            <div class="p-8 bg-blue-50 rounded-xl text-center transform hover:scale-105 transition duration-300">
+                <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-blue-900">Gratuito</h3>
+                <p class="text-gray-700 text-lg">Non chiediamo tariffe e non dovrete spendere nulla di tasca vostra. Il lavoro è completamente gratis.</p>
+            </div>
+
+            <!-- Semplice -->
+            <div class="p-8 bg-yellow-50 rounded-xl text-center transform hover:scale-105 transition duration-300">
+                <div class="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-10 h-10 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-blue-900">Semplice</h3>
+                <p class="text-gray-700 text-lg">Non serve avere qualifiche di nessun genere per svolgere il lavoro. È una passeggiata anche per i meno esperti.</p>
+            </div>
+
+            <!-- Veloce -->
+            <div class="p-8 bg-green-50 rounded-xl text-center transform hover:scale-105 transition duration-300">
+                <div class="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-blue-900">Veloce</h3>
+                <p class="text-gray-700 text-lg">Non ci saranno orari prestabiliti in cui lavorare, il lavoro si svolgerà appena darete disponibilità per poter lavorare.</p>
+            </div>
+
+            <!-- Da ovunque -->
+            <div class="p-8 bg-purple-50 rounded-xl text-center transform hover:scale-105 transition duration-300">
+                <div class="w-20 h-20 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-blue-900">Da ovunque</h3>
+                <p class="text-gray-700 text-lg">Potrete lavorare ovunque, da telefono o computer, non serve stabilirsi in una dimora fissa.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Chi Siamo -->
+    <section id="chi-siamo" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Chi Siamo</h2>
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="chi siamo.png" alt="Team" class="rounded-lg shadow-xl"/>
+                </div>
+                <div class="md:w-1/2 space-y-6">
+                    <p class="text-gray-600">
+                        Siamo un team di professionisti altamente qualificati con anni di esperienza nella gestione di transazioni finanziarie. Offriamo opportunità di collaborazione, consentendo ai nostri partner di svolgere transazioni in cambio di un compenso, sempre all'insegna della sicurezza, della trasparenza e della convenienza.
+                    </p>
+                    <p class="text-gray-600">
+                        Da tempo, ci impegniamo a supportare i nostri collaboratori in ogni fase del processo, garantendo loro un'esperienza fluida e vantaggiosa. Allo stesso modo, ci dedichiamo a fornire ai nostri clienti un servizio affidabile e altamente professionale. Grazie alla nostra solida esperienza, abbiamo costruito una rete di fiducia in cui ogni transazione è gestita con la massima attenzione e precisione, generando benefici per tutte le parti coinvolte.
+                    </p>
+                    <p class="text-gray-600">
+                        Il nostro team, sempre disponibile e preparato, è al servizio di chiunque desideri semplificare e ottimizzare le proprie operazioni finanziarie, garantendo la massima soddisfazione per collaboratori e clienti.</p>
+                    <div class="pt-6">
+                        <a href="https://t.me/FrancescoPaypal?text=Ciao%20ho%20un%20conto%20PayPal%2C%20voglio%20iniziare%20a%20lavorare%20con%20te%20%F0%9F%91%8D" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+                            Contattaci su Telegram
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-blue-600">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-white mb-8">Pronto per Iniziare?</h2>
+            <p class="text-xl text-blue-100 mb-8">Unisciti a migliaia di partner di successo oggi stesso</p>
+            <a href="https://t.me/FrancescoPaypal?text=Ciao%20ho%20un%20conto%20PayPal%2C%20voglio%20iniziare%20a%20lavorare%20con%20te%20%F0%9F%91%8D" class="inline-flex items-center px-8 py-4 bg-white text-blue-600 rounded-full text-lg hover:bg-gray-100 transition">
+                Inizia il Tuo Percorso
+                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">FASTMONEY SRL</h3>
+                    <p class="text-gray-400">Costruiamo insieme il tuo futuro finanziario</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="font-bold mb-4">Azienda</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#chi-siamo" class="text-gray-400 hover:text-white">Chi Siamo</a></li>
+                            <li><a href="#contatti" class="text-gray-400 hover:text-white">Contatti</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2025 FASTMONEY SRL – Tutti i diritti riservati | P. IVA: 05589970960</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Gestione menu mobile
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOpen = menuBtn.querySelector('.menu-open');
+        const menuClose = menuBtn.querySelector('.menu-close');
+        let isMenuOpen = false;
+
+        menuBtn.addEventListener('click', () => {
+            isMenuOpen = !isMenuOpen;
+            if (isMenuOpen) {
+                mobileMenu.classList.remove('hidden');
+                menuOpen.classList.add('hidden');
+                menuClose.classList.remove('hidden');
+            } else {
+                mobileMenu.classList.add('hidden');
+                menuOpen.classList.remove('hidden');
+                menuClose.classList.add('hidden');
+            }
+        });
+
+        // Chiudi menu mobile quando si clicca un link
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuOpen.classList.remove('hidden');
+                menuClose.classList.add('hidden');
+                isMenuOpen = false;
+            });
+        });
+
+        // Scroll smooth per i link interni
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const navHeight = document.querySelector('nav').offsetHeight;
+                    const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navHeight;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Effetto di fade-in per le sezioni al scroll
+        const fadeElements = document.querySelectorAll('section');
+        
+        const fadeInOnScroll = () => {
+            fadeElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementBottom = element.getBoundingClientRect().bottom;
+                
+                if (elementTop < window.innerHeight - 100 && elementBottom > 0) {
+                    element.classList.add('opacity-100');
+                    element.classList.remove('opacity-0');
+                }
+            });
+        };
+
+        // Aggiungi classe iniziale per l'animazione
+        fadeElements.forEach(element => {
+            element.classList.add('transition');
+            element.classList.add('duration-1000');
+            element.classList.add('opacity-0');
+        });
+
+        // Esegui il controllo allo scroll
+        window.addEventListener('scroll', fadeInOnScroll);
+        // Esegui il controllo al caricamento della pagina
+        window.addEventListener('load', fadeInOnScroll);
+    </script>
+</body>
+</html>
